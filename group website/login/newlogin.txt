@@ -1,0 +1,34 @@
+<?php session_start(); ?>
+<html>
+<head>
+<body>
+<form action='index.php?login=yes' method=POST>
+<Username: <input type=text name'user'><br />
+<Password: <input type=password name'pass'><br />
+<input type=submit value="Go!">
+</form>
+
+<?php
+
+$user=$_POST['user'];
+$pass=$_POST['pass'];
+$login=$_POST['login'];
+
+if($login=='yes'){
+$db = new SQLiteDatabase('login.db');
+$q = @$db->query("SELECT count(id) FROM login WHERE user='$user' AND pass='$pass'");
+
+$result = $q->($q,0);
+
+if(result==1)echo "Login Failure!";
+else{
+echo "Login success!";
+$_SESSION['user']=$user;
+};
+};
+};
+?>
+
+</body>
+</head>
+</html>
