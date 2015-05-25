@@ -1,0 +1,26 @@
+Header -> inc_header.php
+- Logos? (See design layout comp)
+
+Left Sidebar -> inc_leftSidebar.php (make new file, don't worry about formatting, just adding the content)
+- Add content about becoming members and volunteers
+
+Right Sidebar -> inc_rightSidebar.php (make new file, modular design reading database file)
+- Add PHP to list random selection of artists
+
+Home Page -> inc_home.php
+- Make div sections for
+	- Greeting to page, Brief Site intro
+	- Featured Artist (PHP)
+	- Featured Event (PHP)
+	- Social Media Links
+	- Sponsors Information
+
+About Us -> inc_aboutUs.php
+
+Footer -> inc_footer.php
+- Contact Information
+- Links
+- Copyright information (?)
+
+
+
