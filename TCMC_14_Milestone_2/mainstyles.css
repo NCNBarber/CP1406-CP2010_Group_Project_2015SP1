@@ -29,12 +29,12 @@ h1 {
 	height:151px;
 	width:1000px;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #navigation { 
 	background-color:#f8ecd5;
 	text-align: center;
-	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
@@ -70,12 +70,12 @@ h1 {
 	background-color:#e0d4bd;
 	margin-left:10px;
 	margin-right:10px;
+	margin-bottom: 10px;
 	float: left;
 }
 
 #footer {
 	clear: both;
-	margin-top: 10px;
 	background-color: #9B815E;
 }
 
@@ -101,6 +101,7 @@ h1 {
 	width:150px;
 	float: left;
 	background-color:#B8A489;
+	margin-bottom: 10px;
 }
 	
 /*aside {
