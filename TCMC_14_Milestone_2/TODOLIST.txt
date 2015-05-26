@@ -1,45 +1,51 @@
 For making new files, use the templatepage.php file as a starting point to see how the CSS will affect the code that you're writing and use the existing divs to test how the content will appear on the finished website. Don't modify any existing CSS, but add new div classes or ids as you see fit. If any of the existing CSS needs changing we can do it when we meet up next.
 Good luck everyone!
-
 - Nicholas
 
+Header -> inc_header.php (Nicholas or Boopathi)
+- Login Field
 
-
-Header -> inc_header.php
-- Logos? (See design layout comp)
-
-
-
-Left Sidebar -> inc_leftSidebar.php
-
+Left Sidebar -> inc_leftSidebar.php (Micah) - Finished
 - Add content about becoming members and volunteers
 
-
-
-Right Sidebar -> inc_rightSidebar.php
-
+Right Sidebar -> inc_rightSidebar.php (Nicholas)
 - Add PHP to list random selection of artists
 
-
-
-Home Page -> inc_home.php
-
+Home Page -> inc_home.php (Lachlan?)
 - Make div sections for
-	
 	- Greeting to page, Brief Site intro
-
 	- Featured Artist (PHP Required)
-
 	- Featured Event (PHP Required)
-
 	- Social Media Links
-
 	- Sponsors Information
 
+Events Page -> inc_events.php (Nicholas)
+- Use PHP to populate content
 
+Membership Page -> inc_membership.php
+- Contains Membership information and benefits
+- Form to get membership details
+	-username
+	-password
+	-first name
+	-last name
+	-postal address
+	-suburb
+	-postcode
+	-phone
+	-phone (afterhours)
+	-mobile
+	-email
+- Form doesn't have to submit data yet, just be able to take those things in
+- Details on how to get paid membership etc 
 
-Footer -> inc_footer.php
+Musos Page -> inc_musos.php 
+- Use PHP to populate content
 
+Sponsors Page -> inc_sponsors.php (Lara)
+- Sponsors Information
+
+Footer -> inc_footer.php (Lara)
 - Contact Information
 - Links
 - Copyright information (?)
