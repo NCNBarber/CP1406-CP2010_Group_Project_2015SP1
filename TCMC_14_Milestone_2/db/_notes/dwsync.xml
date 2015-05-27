@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="tcmcdatabase.sqlite" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771758557971983" remote="130771777420000000" Dst="0" />
-<file name="artist.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771758557971983" remote="130771777410000000" Dst="0" />
-<file name="dbconnect.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771758557971983" remote="130771777420000000" Dst="0" />
-<file name="dbprocessartist.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771758557971983" remote="130771777420000000" Dst="0" />
+<file name="tcmcdatabase.sqlite" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771019460000000" remote="130771019460000000" Dst="0" />
+<file name="artist.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771052630000000" remote="130771052630000000" Dst="0" />
+<file name="dbconnect.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771019050000000" remote="130771019050000000" Dst="0" />
+<file name="dbprocessartist.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771881157597810" remote="130771881170000000" Dst="0" />
+<file name="inc_addArtists.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771918481511063" remote="130771918610000000" Dst="0" />
 </dwsync>

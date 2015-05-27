@@ -74,9 +74,9 @@ h1 {
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 	float: left;
-	padding:5px;
-	
 }
 
 #footer {
@@ -103,9 +103,10 @@ h1 {
 
 /*.alignedLeft {
 	float: left;
-}
+}*/
 
-.alignedRight {
+/*.floatRight {
+	display: block;
 	float: right;
 }*/
 
@@ -128,10 +129,12 @@ h1 {
 }
 
 #adminContentContainer {
-	width: 840px;
+	width: 820px;
 	background-color: #e0d4bd;
 	margin-left: 10px;
 	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 	float: left;
 }
 	
@@ -142,6 +145,13 @@ h1 {
 	float: left;
 }*/
 
+.subtleSet {
+	border-radius:25px;
+	width: 30em;
+}
+.deleteButton {
+	color: red;
+}
 
 article { 
 

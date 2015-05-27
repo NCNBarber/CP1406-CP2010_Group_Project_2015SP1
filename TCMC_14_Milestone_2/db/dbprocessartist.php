@@ -6,7 +6,7 @@ if ($_REQUEST['submit'] == "X")
 {
 	$sql = "DELETE FROM artists WHERE id = '$_REQUEST[id]'";
 	if ($dbh->exec($sql))
-		header("Location: artist.php");
+		header("Location: inc_addArtists.php");
 }
 ?>
 <!doctype html>

@@ -1,12 +1,15 @@
 <div id="header">
 	<img src="images/logo.png" alt="Townsville Community Music Centre" class="alignedCentre"/>
-    
-    <form>
-    <fieldset>
-      <h1>
+    <div class="footerContentContainerRight">
+    	<a href="administration?page=home">Sign in</a>
+    </div>
+<!--    <div class="floatRight">
+    	<form>
+    	<fieldset>
+      	<h1>
         <legend>Sign-in</legend>
-      </h1>
-      <p>User Name:<br>
+      	</h1>
+      	<p>User Name:<br>
         <input type="text" name="name">
         <br>
         Password:<br>
@@ -14,9 +17,10 @@
         <br>
         
         <br><br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Log in">
       </p>
     </fieldset>
-  </form>
-    
-   </div> 
+  </form>-->
+	<div class="floatClear">
+	</div>
+</div> 
