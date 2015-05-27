@@ -22,7 +22,7 @@ Home Page -> inc_home.php (Lachlan?)
 Events Page -> inc_events.php (Nicholas)
 - Use PHP to populate content
 
-Membership Page -> inc_membership.php
+Membership Page -> inc_membership.php (lara) just need the php side
 - Contains Membership information and benefits
 - Form to get membership details
 	-username
@@ -42,10 +42,10 @@ Membership Page -> inc_membership.php
 Musos Page -> inc_musos.php 
 - Use PHP to populate content
 
-Sponsors Page -> inc_sponsors.php (Lara)
+Sponsors Page -> inc_sponsors.php (Lara) finshed
 - Sponsors Information
 
-Footer -> inc_footer.php (Lara)
+Footer -> inc_footer.php (Lara) finshed
 - Contact Information
 - Links
 - Copyright information (?)
