@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Townsville Community Music Centre - Home Page</title>
-<link href="mainstyles.css" rel="stylesheet" type="text/css">
+<link href="styles/mainstyles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>

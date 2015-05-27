@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="tcmcdatabase.sqlite" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130770635910000000" remote="130770635910000000" Dst="0" />
+<file name="tcmcdatabase.sqlite" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771019460000000" remote="130771019460000000" Dst="0" />
+<file name="artist.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771052630000000" remote="130771052630000000" Dst="0" />
+<file name="dbconnect.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771019050000000" remote="130771019050000000" Dst="0" />
+<file name="dbprocessartist.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771052620000000" remote="130771052620000000" Dst="0" />
 </dwsync>
