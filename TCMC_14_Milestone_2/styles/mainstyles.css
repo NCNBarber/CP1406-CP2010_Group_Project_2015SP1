@@ -69,17 +69,20 @@ h1 {
 }
 
 #contentContainer {
-	width: 680px;
+	width: 650px;
 	background-color: #e0d4bd;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 10px;
 	float: left;
+	padding:5px;
+	
 }
 
 #footer {
 	clear: both;
 	background-color: #9B815E;
+	padding:5px;
 }
 
 .footerContentContainerLeft {
@@ -120,6 +123,8 @@ h1 {
 	float: left;
 	background-color: #B8A489;
 	margin-bottom: 10px;
+	padding:5px
+	
 }
 
 #adminContentContainer {
@@ -142,5 +147,3 @@ article {
 
 }
 	
-
-
