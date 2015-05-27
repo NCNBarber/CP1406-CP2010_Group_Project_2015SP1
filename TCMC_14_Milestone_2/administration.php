@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Template Page</title>
+<title></title>
 <link href="styles/mainstyles.css" rel="stylesheet" type="text/css">
 <script src="js/adjustColumnHeights.js"></script>
 </head>
@@ -14,7 +14,7 @@
         <?php include("inc_leftSidebar.php"); ?>
         <div id="adminContentContainer">
         	<?php if ($_GET[page] == "addArtists") {
-				include("db/inc_addArtists.php");
+				include("inc_addArtists.php");
                 echo "<p>Hello World!</p>";} ?>
         </div>
         <?php include("inc_adminFooter.php"); ?>
