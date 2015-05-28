@@ -15,6 +15,14 @@
   		<p><form>
     	<fieldset>
       	<h1><legend>Become a Member:</legend></h1>
+        
+        <p>You can support the Music Centre by becoming a Member and derive some benefits for yourself at the same time. Your subscription helps to keep us operating and we provide substantial discounts whenever possible. 
+<br>
+<br>
+<strong>For the Music Centre's own events, Members' ticket discounts can be as high as 50%!</strong>
+<br>
+<br>
+The Music Centre is also registered as a Deductible Gift Recipient. Any extra donations are tax-deductible!</p>
            User Name:<br>
         <input type="text" name="User Name">
         <br>
