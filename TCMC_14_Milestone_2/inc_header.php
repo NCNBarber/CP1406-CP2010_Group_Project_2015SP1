@@ -1,22 +1,4 @@
 <div id="header">
-	<img src="images/logo.png" alt="Townsville Community Music Centre" class="alignedCentre"/>
-    
-    <form>
-    <fieldset>
-      <h1>
-        <legend>Sign-in</legend>
-      </h1>
-      <p>User Name:<br>
-        <input type="text" name="name">
-        <br>
-        Password:<br>
-        <input type="text" name="Phone number">
-        <br>
-        
-        <br><br>
-        <input type="submit" value="Submit">
-      </p>
-    </fieldset>
-  </form>
-    
-   </div> 
+	<a class="headerAlignedCentre" href="index?page=home"><img src="images/logo.png" alt="Townsville Community Music Centre"/></a>
+    <a class="headerAlignedRight" href="administration?page=home"><img src="images/signin.png" width="133.33" height="89" alt="Sign In"/></a>
+</div> 

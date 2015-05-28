@@ -1,16 +1,4 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Template Page</title>
-<link href="styles/mainstyles.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-<div id="container">
-  <?php include("inc_navigation.php"); ?>
-        <?php include("inc_leftSidebar.php"); ?>
-  <div id="contentContainer">
+<div id="contentContainer">
   	<div class="alignedCentre">
   		<p><form>
     	<fieldset>
@@ -68,8 +56,4 @@ The Music Centre is also registered as a Deductible Gift Recipient. Any extra do
     </fieldset>
   </form></p>
   </div>
-        </div>
-        <?php include("inc_footer.php") ?>
-	</div>
-</body>
-</html>
+</div>

@@ -5,18 +5,19 @@ function adjustColumnHeights() {
 	var leftSidebarHeight = leftSidebar.offsetHeight;
 	var contentContainerHeight = contentContainer.offsetHeight;
 	var rightSidebarHeight = rightSidebar.offsetHeight;
+	var extraPadding = 0;
 
 	if (leftSidebarHeight > contentContainerHeight && leftSidebarHeight > rightSidebarHeight) {
-		contentContainer.style.height = leftSidebarHeight + "px";
-		rightSidebar.style.height = leftSidebarHeight + "px";
+		contentContainer.style.height = (leftSidebarHeight - extraPadding) + "px";
+		rightSidebar.style.height = (leftSidebarHeight - extraPadding) + "px";
 	}
 	else if (contentContainerHeight > leftSidebarHeight && contentContainerHeight > rightSidebarHeight) {
-    		leftSidebar.style.height = contentContainerHeight + "px";
-    		rightSidebar.style.height = contentContainerHeight + "px";
+    		leftSidebar.style.height = (contentContainerHeight - extraPadding) + "px";
+    		rightSidebar.style.height = (contentContainerHeight - extraPadding) + "px";
 	}
 	else {
-		leftSidebar.style.height = rightSidebarHeight + "px";
-		contentContainer.style.height = rightSidebarHeight + "px";
+		leftSidebar.style.height = (rightSidebarHeight - extraPadding) + "px";
+		contentContainer.style.height = (rightSidebarHeight - extraPadding) + "px";
 	}
 }
 

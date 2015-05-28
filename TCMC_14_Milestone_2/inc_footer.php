@@ -8,10 +8,10 @@
 		<strong>Location:</strong> Townsville Civic Theatre, 41 Boundary Street, Townsville, Qld 4810</p>
 	</div>
     <div class="footerContentContainerRight">
-        <img src="images/QldGovLogo.jpg" width="86" height="100" alt="Queensland Government Logo"/>
+        <a href="https://www.qld.gov.au/"><img src="images/QldGovLogo.jpg" width="86" height="100" alt="Queensland Government Logo"/></a>
 	</div>
     <div class="footerContentContainerRight">
-		<img src="images/Townsville-City-Council-.jpg" width="79.5" height="100" alt="Townsville City Council Logo"/>
+		<a href="http://www.townsville.qld.gov.au/Pages/default.aspx"><img src="images/Townsville-City-Council-.jpg" width="79.5" height="100" alt="Townsville City Council Logo"/></a>
 	</div>
     <div class="floatClear">
     </div>
