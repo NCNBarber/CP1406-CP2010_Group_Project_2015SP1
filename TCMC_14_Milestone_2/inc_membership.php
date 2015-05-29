@@ -2,7 +2,7 @@
   	<div class="alignedCentre">
   		<p><form>
     	<fieldset>
-      	<h1><legend>Become a Member:</legend></h1>
+      	<h1><legend>Membership</legend></h1>
         
         <p>You can support the Music Centre by becoming a Member and derive some benefits for yourself at the same time. Your subscription helps to keep us operating and we provide substantial discounts whenever possible. 
 <br>

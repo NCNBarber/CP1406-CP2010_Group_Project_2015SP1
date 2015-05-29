@@ -15,7 +15,7 @@
         <?php if ($_GET[page] == "home" or $_GET[page] == "" ) {
 			include("inc_home.php");}
 		else if ($_GET[page] == "communityNotices") {
-			include("inc_communityNotices.php");}
+			include("inc_bulletinBoard.php");}
 		else if ($_GET[page] == "events") {
 			include("inc_events.php");}
 		else if ($_GET[page] == "membership") {

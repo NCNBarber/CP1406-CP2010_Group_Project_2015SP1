@@ -14,10 +14,9 @@
         <?php include("inc_leftSidebar.php"); ?>
         <div id="adminContentContainer">
         	<?php if ($_GET[page] == "addArtists") {
-				include("inc_addArtists.php");
-                echo "<p>Hello World!</p>";} ?>
+				include("inc_addArtists.php");} ?>
         </div>
-        <?php include("inc_adminFooter.php"); ?>
+        <?php include("inc_footer.php"); ?>
 </div>
 </body>
 </html>

@@ -114,6 +114,16 @@ body h1, p {
 	padding-right: 5px;
 }
 
+#featuredArtist {
+	background-color: #F8F4EF;
+	border-thickness: thin;
+	border-radius: 0.25em;
+	height: 302.5px;
+	width: 302.5px;
+	margin: 5px;
+	padding: 5px;
+}
+
 #featuredEventContainer {
 	background-color: #C6C;
 	width: 322.5px;
@@ -127,6 +137,16 @@ body h1, p {
 #featuredEventContainer p {
 	padding-left: 5px;
 	padding-right: 5px;
+}
+
+#featuredEvent {
+	background-color: #F8F4EF;
+	border-thickness: thin;
+	border-radius: 0.25em;
+	height: 302.5px;
+	width: 302.5px;
+	margin: 5px;
+	padding: 5px;
 }
 
 #socialMediaContainer {
@@ -256,7 +276,7 @@ body h1, p {
 }
 
 .headerAlignedRight {
-	margin-left: 258px;
+	margin-left: 257px;
 }
 
 /*.alignedLeft {

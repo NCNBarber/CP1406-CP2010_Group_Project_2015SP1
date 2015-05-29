@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <?php if ($_GET[page] == "home" or $_GET[page] == "" ) {
 	echo "<title>TCMC - Home</title>";}
-else if ($_GET[page] == "communityNotices") {
-	echo "<title>TCMC - Community Notices</title>";}
+else if ($_GET[page] == "bulletinBoard") {
+	echo "<title>TCMC - Bulletin Board</title>";}
 else if ($_GET[page] == "events") {
 	echo "<title>TCMC - Events</title>";}
 else if ($_GET[page] == "membership") {
@@ -29,8 +29,8 @@ else {
         <?php include("inc_leftSidebar.php"); ?>
         <?php if ($_GET[page] == "home" or $_GET[page] == "" ) {
 			include("inc_home.php");}
-		else if ($_GET[page] == "communityNotices") {
-			include("inc_communityNotices.php");}
+		else if ($_GET[page] == "bulletinBoard") {
+			include("inc_bulletinBoard.php");}
 		else if ($_GET[page] == "events") {
 			include("inc_events.php");}
 		else if ($_GET[page] == "membership") {

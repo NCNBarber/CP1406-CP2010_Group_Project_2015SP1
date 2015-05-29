@@ -1,4 +1,4 @@
-<?php include("dbconnect.php") ?>
+<?php include("db/dbconnect.php") ?>
 
 <h1>Add new Artist</h1>
 <form id="insert" name="insert" method="post" action="db/dbprocessartist.php">

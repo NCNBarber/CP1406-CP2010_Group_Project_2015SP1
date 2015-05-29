@@ -1,3 +1,5 @@
+<?php include("db/dbconnect.php"); ?>
+
 <div id="contentContainer">
 	<div id="welcomeContainer">
     	<h1>Welcome to the T.C.M.C. Website!</h1>
@@ -5,10 +7,38 @@
 		<p>Whether you are starting or pursuing a musical career, looking to volunteer your time to help organise and promote our events or are just looking to attend a performance, our site allows you to jump into the fray and enjoy the very best music that Townsville has to offer.</p>
 	</div>
     <div id="featuredArtistContainer">
-    	<p>Featured Artist</p>
+		<?php $sql = "SELECT * FROM artists WHERE featured='1'";
+	foreach ($dbh->query($sql) as $row) {
+		echo "<div id='featuredArtist'>";
+		echo "<h2 class='centreText'>Featured Artist</h2>";
+		if ($row[imageAddress] != "None") {
+			echo "<img class='artistImageContainer' src='$row[imageAddress]' alt='$row[name]'></img>";
+		}
+		echo "<h2>$row[name]</h2>";
+		if ($row[imageAddress] != "None") {
+			echo "<div class='clearFloat'>";
+			echo "</div>";
+		}
+		echo "</div>";
+	};
+	?>	
     </div>
     <div id="featuredEventContainer">
-    	<p>Featured Event</p>
+    	<?php $sql = "SELECT * FROM events WHERE featured='1'";
+	foreach ($dbh->query($sql) as $row) {
+		echo "<div id='featuredEvent'>";
+		echo "<h2 class='centreText'>Featured Event</h2>";
+		if ($row[imageAddress] != "None") {
+			echo "<img class='eventImageContainer' src='$row[imageAddress]' alt='$row[name]'></img>";
+		}
+		echo "<h2>$row[name]</h2>";
+		if ($row[imageAddress] != "None") {
+			echo "<div class='clearFloat'>";
+			echo "</div>";
+		}
+		echo "</div>";
+	};
+	?>	
     </div>
     <div id="socialMediaContainer">
     	<p>Social Media</p>
