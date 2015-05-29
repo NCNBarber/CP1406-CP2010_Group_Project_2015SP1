@@ -10,8 +10,8 @@ else if ($_GET[page] == "events") {
 	echo "<title>TCMC - Events</title>";}
 else if ($_GET[page] == "membership") {
 	echo "<title>TCMC - Membership</title>";}
-else if ($_GET[page] == "musos") {
-	echo "<title>TCMC - Musos</title>";}
+else if ($_GET[page] == "musicians") {
+	echo "<title>TCMC - Musicians</title>";}
 else if ($_GET[page] == "sponsors"){
 	echo "<title>TCMC - Sponsors</title>";}
 else {
@@ -33,8 +33,8 @@ else {
 			include("inc_events.php");}
 		else if ($_GET[page] == "membership") {
 			include("inc_membership.php");}
-		else if ($_GET[page] == "musos") {
-			include("inc_musos.php");}
+		else if ($_GET[page] == "musicians") {
+			include("inc_musicians.php");}
 		else if ($_GET[page] == "sponsors"){
 			include("inc_sponsors.php");}
 		else {
