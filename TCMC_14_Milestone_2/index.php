@@ -12,6 +12,8 @@ else if ($_GET[page] == "membership") {
 	echo "<title>TCMC - Membership</title>";}
 else if ($_GET[page] == "musicians") {
 	echo "<title>TCMC - Musicians</title>";}
+else if ($_GET[page] == "aboutUs") {
+	echo "<title>TCMC - About Us</title>";}
 else if ($_GET[page] == "sponsors"){
 	echo "<title>TCMC - Sponsors</title>";}
 else {
@@ -35,6 +37,10 @@ else {
 			include("inc_membership.php");}
 		else if ($_GET[page] == "musicians") {
 			include("inc_musicians.php");}
+		else if ($_GET[page] == "aboutUs") {
+			include("inc_aboutUs.php");}
+		else if ($_GET[page] == "aboutUs2") {
+			include("inc_aboutUs (2).php");}
 		else if ($_GET[page] == "sponsors"){
 			include("inc_sponsors.php");}
 		else {

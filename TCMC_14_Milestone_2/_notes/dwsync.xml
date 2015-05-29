@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="index.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773467278372950" remote="130773475500000000" Dst="0" />
+<file name="index.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773757293716029" remote="130773757370000000" Dst="0" />
 <file name="templatepage.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130772358073073251" remote="130773475530000000" Dst="0" />
 <file name="TODOLIST.txt" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130772035519974269" remote="130772297970000000" Dst="0" />
 <file name="administration.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130772358072503218" remote="130773474970000000" Dst="0" />
 <file name="inc_adminNavigation.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773469950755802" remote="130773475470000000" Dst="0" />
 <file name="inc_communityNotices.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130772358072833237" remote="130773475480000000" Dst="0" />
-<file name="inc_events.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130772358072853238" remote="130773475480000000" Dst="0" />
+<file name="inc_events.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773742003590301" remote="130773742060000000" Dst="0" />
 <file name="inc_footer.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130772358072873240" remote="130773475480000000" Dst="0" />
 <file name="inc_header.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773468544015341" remote="130773475490000000" Dst="0" />
 <file name="inc_home.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773032333774173" remote="130773475490000000" Dst="0" />
 <file name="inc_leftSidebar.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130771355612849958" remote="130773475490000000" Dst="0" />
 <file name="inc_membership.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773032333804174" remote="130773475490000000" Dst="0" />
-<file name="inc_navigation.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773468156993205" remote="130773475500000000" Dst="0" />
+<file name="inc_navigation.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773713858430819" remote="130773715410000000" Dst="0" />
 <file name="inc_rightSidebar.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130772358072963245" remote="130773475500000000" Dst="0" />
-<file name="inc_sponsors.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773032333824176" remote="130773475500000000" Dst="0" />
+<file name="inc_sponsors.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773722924595679" remote="130773727150000000" Dst="0" />
 <file name="inc_addArtists.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130772358072803236" remote="130773475470000000" Dst="0" />
-<file name="inc_musicians.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773038000948317" remote="130773475490000000" Dst="0" />
+<file name="inc_musicians.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773740556150354" remote="130773740530000000" Dst="0" />
+<file name="inc_aboutUs (2).php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773710845048463" remote="130773715410000000" Dst="0" />
+<file name="inc_aboutUs.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773767022002019" remote="130773767270000000" Dst="0" />
+<file name="inc_aboutus.php" server="ditwebtsv.jcu.edu.au/public_html/TCMC/" local="130773767022002019" remote="130773767040000000" Dst="0" />
 </dwsync>

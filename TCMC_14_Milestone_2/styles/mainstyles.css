@@ -9,13 +9,14 @@ body {
 	padding: 0px;
 }
 
+body h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+
 body h1, p {
 	padding: 5px
 	text-justify: auto;
-}
-
-h1 {
-	font-family: Verdana, Geneva, sans-serif;
 }
 
 #container {
@@ -85,7 +86,7 @@ h1 {
 }
 
 #welcomeContainer {
-	background-color: #960;
+	background-color: #FFD071;
 	margin-top: -20px;
 	margin-bottom: 5px;
 }
@@ -251,7 +252,6 @@ h1 {
 }
 
 .headerAlignedCentre {
-/*	display: inline-block;*/
 	margin-left: 395px;
 }
 

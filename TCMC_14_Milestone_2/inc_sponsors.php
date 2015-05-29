@@ -1,5 +1,6 @@
 <div id="contentContainer">
-	<p>The Music Centre receives vital support from the sponsors featured on this page
+	<h1>Sponsors</h1>
+    <p>The Music Centre receives vital support from the sponsors featured on this page
 Our music concerts are well-publicised and well-attended and sponsors enjoy brand exposure throughout the Arts community. We welcome sponsorship or assistance in any form.
 </p>
 	<a href="http://www.townsville.qld.gov.au/Pages/default.aspx"><img  class="alignedCentre" src="images/Townsville-City-Council-.jpg" alt="townsville city council" width="184" height="230"></a>

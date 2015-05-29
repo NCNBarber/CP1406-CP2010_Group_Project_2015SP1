@@ -6,7 +6,8 @@
 			<li><a <?php if ($_GET[page] == "events") {echo 'class="activePage"';} ?> href="index.php?page=events">Events</a></li>
 			<li><a <?php if ($_GET[page] == "membership") {echo 'class="activePage"';} ?> href="index.php?page=membership">Membership</a></li>
 			<li><a <?php if ($_GET[page] == "musos") {echo 'class="activePage"';} ?> href="index.php?page=musicians">Musicians</a></li>
-			<li><a <?php if ($_GET[page] == "sponsors") {echo 'class="activePage"';} ?> href="index.php?page=sponsors">Sponsors</a></li>
+			<li><a <?php if ($_GET[page] == "aboutUs") {echo 'class="activePage"';} ?> href="index.php?page=aboutUs">About Us</a></li>
+            <li><a <?php if ($_GET[page] == "sponsors") {echo 'class="activePage"';} ?> href="index.php?page=sponsors">Sponsors</a></li>
 		</ul>
 	</p>
 </div>
