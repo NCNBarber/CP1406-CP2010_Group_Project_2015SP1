@@ -17,7 +17,7 @@ else if ($_GET[page] == "aboutUs") {
 else if ($_GET[page] == "sponsors"){
 	echo "<title>TCMC - Sponsors</title>";}
 else {
-	echo "<title>TCMC - Unknown Page</title>";} ?>
+	echo "<title>TCMC - Home</title>";} ?>
 <link href="styles/mainstyles.css" rel="stylesheet" type="text/css">
 <script src="js/adjustColumnHeights.js"></script>
 </head>
@@ -39,12 +39,10 @@ else {
 			include("inc_musicians.php");}
 		else if ($_GET[page] == "aboutUs") {
 			include("inc_aboutUs.php");}
-		else if ($_GET[page] == "aboutUs2") {
-			include("inc_aboutUs (2).php");}
 		else if ($_GET[page] == "sponsors"){
 			include("inc_sponsors.php");}
 		else {
-			echo '<div id="contentContainer"><p>Unknown Page.</p></div>';} ?>
+			include("inc_home.php");} ?>
         <?php include("inc_rightSidebar.php"); ?>
         <?php include("inc_footer.php"); ?>
 </div>

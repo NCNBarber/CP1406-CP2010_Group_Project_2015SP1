@@ -1,4 +1,4 @@
-<?php include("db/dbconnect.php"); ?>
+<?php include("dbconnect.php"); ?>
 
 <div id="contentContainer">
 	<div id="welcomeContainer">

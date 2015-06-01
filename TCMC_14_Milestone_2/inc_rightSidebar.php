@@ -1,27 +1,19 @@
-<?php include("db/dbconnect.php"); ?>
+<?php include("dbconnect.php"); ?>
 
 <div class="sidebar" id="rightSidebar">
-    <?php $sql = "SELECT * FROM artists";
-		$randomIds = array();
-		$numberOfArtists = 0;
+    <?php $sql = "SELECT * FROM events WHERE featured='0'";
+		$randomEventIds = array();
+		$numberOfEvents = 0;
 		foreach ($dbh->query($sql) as $row) {
 			$numberOfArtists++;
 		}
-		for ($i = 0; $i <= 3; $i++) {
-			do {
-				$randomId = rand(0, $numberOfArtists);
-			} while (in_array($randomId, $randomIds));
-			array_push($randomIds, $randomId);
-		}
 		foreach ($dbh->query($sql) as $row) {
-			if (in_array($row[id], $randomIds)) {
-				echo "<div class='sidebarArtistContainer'>";
+				echo "<div class='sidebarEventContainer'>";
 				if ($row[imageAddress] != "None") {
-					echo "<img class='sidebarArtistImageContainer' src='$row[imageAddress]' alt='$row[name]'></img>";
+					echo "<img class='sidebarEventImageContainer' src='$row[imageAddress]' alt='$row[name]'></img>";
 				}
 				echo "<p class='centreText'>$row[name]</p>";
-			}	
-			echo "</div>";
-		};
+				echo "</div>";
+		}
 	?>
 </div>

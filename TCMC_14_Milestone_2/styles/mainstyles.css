@@ -12,11 +12,13 @@ body {
 body h1 {
 	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
+	padding: 5px;
 }
 
-body h1, p {
-	padding: 5px
+body p {
+	text-align: justify;
 	text-justify: auto;
+	padding: 5px;
 }
 
 #container {
@@ -231,7 +233,7 @@ body h1, p {
 	float: left;
 }
 
-.sidebarArtistContainer {
+.sidebarEventContainer {
 	background-color: #F8F4EF;
 	border-thickness: thin;
 	border-radius: 0.25em;
@@ -239,7 +241,7 @@ body h1, p {
 	padding: 5px;
 }
 
-.sidebarArtistImageContainer {
+.sidebarEventImageContainer {
 	display: block;
 	height: 128px;
 	width: 128px;
@@ -279,22 +281,9 @@ body h1, p {
 	margin-left: 257px;
 }
 
-/*.alignedLeft {
-	float: left;
-}*/
-
-/*.floatRight {
-	display: block;
-	float: right;
-}*/
-
 .floatClear {
 	clear: both;
 }
-
-/*.imageContainer {
-	display: inline-block;
-}*/
 
 .sidebar {
 	height: auto;
@@ -317,13 +306,6 @@ body h1, p {
 	float: left;
 }
 	
-/*aside {
-	height:400px;
-	width: 150px;
-	background-color: #b6C187;
-	float: left;
-}*/
-
 .centreText {
 	text-align: center;
 	text-justify: auto;
@@ -337,7 +319,4 @@ body h1, p {
 	color: red;
 }
 
-article { 
-
-}
 	
